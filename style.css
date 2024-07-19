@@ -401,7 +401,7 @@ body, html {
   width: 1140px;
   height: 100px;
   top: 722px;
-  left: 47%;
+  left: 46%;
   transform: translateX(-50%); /* Centre horizontalement le conteneur */
   display: flex;
   align-items: center; /* Centre verticalement les éléments */
@@ -449,7 +449,7 @@ body, html {
   width: 1144px;
   height: 443px;
   top: 992px;
-  left: 110px;
+  left: 95px;
 }
 
 .PORTFOLIO .group-9 {
