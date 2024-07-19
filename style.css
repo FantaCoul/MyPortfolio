@@ -361,27 +361,26 @@ body, html {
 }
 
 .PORTFOLIO .group-4 {
-  width: 232px;
-  top: 610px;
-  left: 968px;
   position: absolute;
+  width: 232px;
   height: 56px;
+  top: 510px;
+  left: 928px;
 }
 
 .PORTFOLIO .overlap-5 {
   position: relative;
-  width: 231px;
-  height: 57px;
-  background-image: url(./img/rectangle-2023.svg);
-  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eec0ff; /* Bordure colorée */
+  border-radius: 15px; /* Coins arrondis */
+  background-color: rgba(255, 255, 255, 0); /* Fond transparent */
 }
 
 .PORTFOLIO .text-wrapper-11 {
-  position: absolute;
-  width: 159px;
-  height: 24px;
-  top: 16px;
-  left: 14px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: #eec0ff;
@@ -389,15 +388,15 @@ body, html {
   text-align: center;
   letter-spacing: 0;
   line-height: 24px;
+  text-decoration: none; /* Remove underline */
+  margin-right: 8px; /* Space between text and icon */
 }
 
 .PORTFOLIO .img {
-  position: absolute;
   width: 24px;
   height: 24px;
-  top: 16px;
-  left: 186px;
 }
+
 
 .PORTFOLIO .group-5 {
   position: absolute;
