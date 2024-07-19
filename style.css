@@ -54,7 +54,7 @@ body, html {
     gap: 40px; /* Space between items */
     position: absolute;
     top: 63px; /* Adjust as needed */
-    left: 60%; /* Center the navbar horizontally */
+    left: 61%; /* Center the navbar horizontally */
     transform: translateX(-50%); /* Center horizontally */
   }
   
@@ -91,17 +91,17 @@ body, html {
 
 .PORTFOLIO .overlap-group {
   position: relative;
-  width: 160px;
-  height: 56px;
-  background-image: url(./img/rectangle-2023-2.svg);
-  background-size: 100% 100%;
+  border-radius: 10px; /* Coins arrondis */
+  display: flex; /* Utiliser Flexbox pour centrer le texte */
+  align-items: center; /* Centrer verticalement */
+  justify-content: center; /* Centrer horizontalement */
+  text-decoration: none; /* Retirer le soulignement du lien */
+  width: 160px; /* Largeur de l'élément */
+  height: 50px; /* Hauteur de l'élément */
+  background-color: #8B0DB7; /* Fond violet plein */
 }
 
 .PORTFOLIO .text-wrapper-2 {
-  position: absolute;
-  height: 24px;
-  top: 16px;
-  left: 23px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: #eec0ff;
@@ -217,7 +217,7 @@ body, html {
   position: absolute;
   width: 115px;
   height: 42px;
-  top: 0;
+  top: 30px; /* Ajustez cette valeur pour la position verticale */
   left: 0;
 }
 
@@ -226,13 +226,12 @@ body, html {
   width: 113px;
   height: 42px;
   border-radius: 56.5px/21px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centre le contenu horizontalement */
 }
 
 .PORTFOLIO .text-wrapper-9 {
-  position: absolute;
-  height: 29px;
-  top: 7px;
-  left: 32px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: #eec0ff;
@@ -249,16 +248,15 @@ body, html {
   position: absolute;
   top: 0;
   left: 0;
-  border: 0.5px solid;
-  border-color: #eec0ff;
+  border: 0.5px solid #eec0ff;
 }
 
 .PORTFOLIO .div-wrapper {
   position: absolute;
   width: 260px;
   height: 306px;
-  top: 155px;
-  left: 968px;
+  top: 115px;
+  left: 898px;
 }
 
 .PORTFOLIO .overlap-4 {
@@ -293,7 +291,7 @@ body, html {
   height: 291px;
   top: 0;
   left: 31px;
-  background-image: url(./img/image-209.png);
+  background-image: url(./Images/MON\ PROFIL.png);
   background-size: 100% 100%;
 }
 
@@ -309,8 +307,8 @@ body, html {
   position: absolute;
   width: 26px;
   height: 372px;
-  top: 208px;
-  left: 1266px;
+  top: 210px;
+  left: 1226px;
 }
 
 .PORTFOLIO .text-wrapper-10 {
@@ -329,8 +327,8 @@ body, html {
 }
 
 .PORTFOLIO .line {
-  height: 64px;
-  top: 152px;
+  height: 84px;
+  top: 162px;
   left: 12px;
   position: absolute;
   width: 1px;
@@ -340,7 +338,7 @@ body, html {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 300px;
+  top: 280px;
   left: 2px;
 }
 
@@ -348,7 +346,7 @@ body, html {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 352px;
+  top: 332px;
   left: 2px;
 }
 
@@ -356,7 +354,7 @@ body, html {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 248px;
+  top: 228px;
   left: 2px;
 }
 
@@ -402,142 +400,56 @@ body, html {
   position: absolute;
   width: 1140px;
   height: 100px;
-  top: 742px;
-  left: 150px;
+  top: 722px;
+  left: 47%;
+  transform: translateX(-50%); /* Centre horizontalement le conteneur */
+  display: flex;
+  align-items: center; /* Centre verticalement les éléments */
+  justify-content: space-between; /* Distribue les éléments avec de l'espace entre eux */
 }
 
-.PORTFOLIO .group-6 {
-  position: absolute;
-  width: 245px;
-  height: 100px;
-  top: 0;
-  left: 0;
-}
-
-.PORTFOLIO .text-wrapper-12 {
-  position: absolute;
-  width: 100px;
-  height: 48px;
-  top: 0;
-  left: 0;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #eec0ff;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: 48px;
-}
-
-.PORTFOLIO .text-wrapper-13 {
-  position: absolute;
-  width: 241px;
-  height: 28px;
-  top: 72px;
-  left: 0;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 28px;
-  letter-spacing: 0;
-  line-height: 28px;
-}
-
-.PORTFOLIO .line-2 {
-  height: 97px;
-  top: 2px;
-  left: 362px;
-  object-fit: cover;
-  position: absolute;
-  width: 1px;
-}
-
-.PORTFOLIO .group-7 {
-  position: absolute;
-  width: 241px;
-  height: 100px;
-  top: 0;
-  left: 483px;
-}
-
-.PORTFOLIO .text-wrapper-14 {
-  position: absolute;
-  width: 99px;
-  height: 48px;
-  top: 0;
-  left: 0;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #eec0ff;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: 48px;
-}
-
-.PORTFOLIO .text-wrapper-15 {
-  position: absolute;
-  width: 237px;
-  height: 28px;
-  top: 72px;
-  left: 0;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 28px;
-  letter-spacing: 0;
-  line-height: 28px;
-}
-
-.PORTFOLIO .line-3 {
-  height: 97px;
-  top: 2px;
-  left: 841px;
-  object-fit: cover;
-  position: absolute;
-  width: 1px;
-}
-
+.PORTFOLIO .group-6,
+.PORTFOLIO .group-7,
 .PORTFOLIO .group-8 {
-  position: absolute;
-  width: 182px;
-  height: 100px;
-  top: 0;
-  left: 962px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre le texte à l'intérieur de chaque groupe */
 }
 
+.PORTFOLIO .text-wrapper-12,
+.PORTFOLIO .text-wrapper-14,
 .PORTFOLIO .text-wrapper-16 {
-  position: absolute;
-  width: 98px;
-  height: 48px;
-  top: 0;
-  left: 0;
   font-family: "Poppins-SemiBold", Helvetica;
   font-weight: 600;
   color: #eec0ff;
   font-size: 40px;
-  letter-spacing: 0;
   line-height: 48px;
 }
 
+.PORTFOLIO .text-wrapper-13,
+.PORTFOLIO .text-wrapper-15,
 .PORTFOLIO .text-wrapper-17 {
-  position: absolute;
-  width: 178px;
-  height: 28px;
-  top: 72px;
-  left: 0;
   font-family: "Poppins-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 28px;
-  letter-spacing: 0;
   line-height: 28px;
 }
+
+.PORTFOLIO .line-2,
+.PORTFOLIO .line-3 {
+  height: 57px;
+  width: 1px;
+  background-color: #eec0ff; /* Couleur des lignes pour qu'elles soient visibles */
+}
+
 
 .PORTFOLIO .a-propos {
   position: absolute;
   width: 1144px;
   height: 443px;
-  top: 1032px;
-  left: 150px;
+  top: 992px;
+  left: 110px;
 }
 
 .PORTFOLIO .group-9 {
