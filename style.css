@@ -33,7 +33,7 @@ body, html {
 .PORTFOLIO .overlap {
   position: absolute;
   width: 1440px;
-  height: 731px;
+  height: 631px;
   top: 0;
   left: 0;
   background-image: url(./Images/Vector\ 1.png);
@@ -77,8 +77,8 @@ body, html {
   position: absolute;
   width: 544px;
   height: 328px;
-  top: 187px;
-  left: 150px;
+  top: 147px;
+  left: 100px;
 }
 
 .PORTFOLIO .overlap-group-wrapper {
@@ -159,7 +159,7 @@ body, html {
   font-weight: 400;
   color: transparent;
   font-size: 40px;
-  line-height: 60px;
+  line-height: 50px;
 }
 
 .PORTFOLIO .span {
