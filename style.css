@@ -1,0 +1,2607 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+.PORTFOLIO {
+  background-color: #d8d5d5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.PORTFOLIO .div {
+  background-color: #000000;
+  overflow: hidden;
+  width: 1440px;
+  height: 8253px;
+  position: relative;
+}
+
+.PORTFOLIO .header {
+  position: absolute;
+  width: 1440px;
+  height: 842px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.PORTFOLIO .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 731px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/vector-1.png);
+  background-size: 100% 100%;
+}
+
+.PORTFOLIO .whatsapp-image {
+  width: 215px;
+  height: 88px;
+  top: 48px;
+  position: absolute;
+  left: 150px;
+}
+
+.PORTFOLIO .navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: 83px;
+  left: 523px;
+}
+
+.PORTFOLIO .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .group {
+  position: absolute;
+  width: 544px;
+  height: 328px;
+  top: 187px;
+  left: 150px;
+}
+
+.PORTFOLIO .overlap-group-wrapper {
+  position: absolute;
+  width: 162px;
+  height: 56px;
+  top: 272px;
+  left: 0;
+}
+
+.PORTFOLIO .overlap-group {
+  position: relative;
+  width: 160px;
+  height: 56px;
+  background-image: url(./img/rectangle-2023-2.svg);
+  background-size: 100% 100%;
+}
+
+.PORTFOLIO .text-wrapper-2 {
+  position: absolute;
+  height: 24px;
+  top: 16px;
+  left: 23px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #eec0ff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .group-2 {
+  position: absolute;
+  width: 166px;
+  height: 24px;
+  top: 288px;
+  left: 195px;
+}
+
+.PORTFOLIO .text-wrapper-3 {
+  position: absolute;
+  height: 24px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #eec0ff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .frame {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 140px;
+}
+
+.PORTFOLIO .overlap-2 {
+  position: absolute;
+  width: 540px;
+  height: 181px;
+  top: 52px;
+  left: 0;
+}
+
+.PORTFOLIO .je-suis-fanta {
+  position: absolute;
+  width: 538px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.PORTFOLIO .span {
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.PORTFOLIO .text-wrapper-4 {
+  font-weight: 600;
+  color: #eec0ff;
+  letter-spacing: 0;
+}
+
+.PORTFOLIO .text-wrapper-5 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #eec0ff;
+  letter-spacing: 0;
+}
+
+.PORTFOLIO .text-wrapper-6 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #eec0ff;
+  letter-spacing: -0.16px;
+}
+
+.PORTFOLIO .text-wrapper-7 {
+  font-weight: 600;
+  color: #eec0ff;
+  letter-spacing: -0.16px;
+}
+
+.PORTFOLIO .text-wrapper-8 {
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -0.16px;
+}
+
+.PORTFOLIO .en-tant-que-designer {
+  position: absolute;
+  width: 540px;
+  top: 133px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.PORTFOLIO .overlap-wrapper {
+  position: absolute;
+  width: 115px;
+  height: 42px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .overlap-3 {
+  position: relative;
+  width: 113px;
+  height: 42px;
+  border-radius: 56.5px/21px;
+}
+
+.PORTFOLIO .text-wrapper-9 {
+  position: absolute;
+  height: 29px;
+  top: 7px;
+  left: 32px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #eec0ff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .ellipse {
+  width: 113px;
+  height: 42px;
+  border-radius: 56.5px/21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0.5px solid;
+  border-color: #eec0ff;
+}
+
+.PORTFOLIO .div-wrapper {
+  position: absolute;
+  width: 260px;
+  height: 306px;
+  top: 155px;
+  left: 968px;
+}
+
+.PORTFOLIO .overlap-4 {
+  position: relative;
+  height: 306px;
+}
+
+.PORTFOLIO .ellipse-2 {
+  position: absolute;
+  width: 236px;
+  height: 231px;
+  top: 60px;
+  left: 24px;
+  border-radius: 117.82px/115.48px;
+  background: linear-gradient(180deg, rgb(238.7, 192.31, 255) 0%, rgb(138.8, 13, 183) 100%);
+}
+
+.PORTFOLIO .ellipse-3 {
+  position: absolute;
+  width: 236px;
+  height: 231px;
+  top: 75px;
+  left: 0;
+  border-radius: 117.82px/115.48px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.PORTFOLIO .vector-wrapper {
+  position: absolute;
+  width: 223px;
+  height: 291px;
+  top: 0;
+  left: 31px;
+  background-image: url(./img/image-209.png);
+  background-size: 100% 100%;
+}
+
+.PORTFOLIO .vector {
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  top: 28px;
+  left: 97px;
+}
+
+.PORTFOLIO .group-3 {
+  position: absolute;
+  width: 26px;
+  height: 372px;
+  top: 208px;
+  left: 1266px;
+}
+
+.PORTFOLIO .text-wrapper-10 {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  top: 48px;
+  left: -48px;
+  transform: rotate(90deg);
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.PORTFOLIO .line {
+  height: 64px;
+  top: 152px;
+  left: 12px;
+  position: absolute;
+  width: 1px;
+}
+
+.PORTFOLIO .instagram {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 300px;
+  left: 2px;
+}
+
+.PORTFOLIO .linkedin-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 352px;
+  left: 2px;
+}
+
+.PORTFOLIO .facebook {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 248px;
+  left: 2px;
+}
+
+.PORTFOLIO .group-4 {
+  width: 232px;
+  top: 610px;
+  left: 968px;
+  position: absolute;
+  height: 56px;
+}
+
+.PORTFOLIO .overlap-5 {
+  position: relative;
+  width: 231px;
+  height: 57px;
+  background-image: url(./img/rectangle-2023.svg);
+  background-size: 100% 100%;
+}
+
+.PORTFOLIO .text-wrapper-11 {
+  position: absolute;
+  width: 159px;
+  height: 24px;
+  top: 16px;
+  left: 14px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #eec0ff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.PORTFOLIO .img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: 186px;
+}
+
+.PORTFOLIO .group-5 {
+  position: absolute;
+  width: 1140px;
+  height: 100px;
+  top: 742px;
+  left: 150px;
+}
+
+.PORTFOLIO .group-6 {
+  position: absolute;
+  width: 245px;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .text-wrapper-12 {
+  position: absolute;
+  width: 100px;
+  height: 48px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #eec0ff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.PORTFOLIO .text-wrapper-13 {
+  position: absolute;
+  width: 241px;
+  height: 28px;
+  top: 72px;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.PORTFOLIO .line-2 {
+  height: 97px;
+  top: 2px;
+  left: 362px;
+  object-fit: cover;
+  position: absolute;
+  width: 1px;
+}
+
+.PORTFOLIO .group-7 {
+  position: absolute;
+  width: 241px;
+  height: 100px;
+  top: 0;
+  left: 483px;
+}
+
+.PORTFOLIO .text-wrapper-14 {
+  position: absolute;
+  width: 99px;
+  height: 48px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #eec0ff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.PORTFOLIO .text-wrapper-15 {
+  position: absolute;
+  width: 237px;
+  height: 28px;
+  top: 72px;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.PORTFOLIO .line-3 {
+  height: 97px;
+  top: 2px;
+  left: 841px;
+  object-fit: cover;
+  position: absolute;
+  width: 1px;
+}
+
+.PORTFOLIO .group-8 {
+  position: absolute;
+  width: 182px;
+  height: 100px;
+  top: 0;
+  left: 962px;
+}
+
+.PORTFOLIO .text-wrapper-16 {
+  position: absolute;
+  width: 98px;
+  height: 48px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #eec0ff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.PORTFOLIO .text-wrapper-17 {
+  position: absolute;
+  width: 178px;
+  height: 28px;
+  top: 72px;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.PORTFOLIO .a-propos {
+  position: absolute;
+  width: 1144px;
+  height: 443px;
+  top: 1032px;
+  left: 150px;
+}
+
+.PORTFOLIO .group-9 {
+  position: absolute;
+  width: 189px;
+  height: 56px;
+  top: 387px;
+  left: 5px;
+}
+
+.PORTFOLIO .overlap-group-2 {
+  position: relative;
+  width: 187px;
+  height: 56px;
+  background-image: url(./img/image.svg);
+  background-size: 100% 100%;
+}
+
+.PORTFOLIO .text-wrapper-18 {
+  position: absolute;
+  top: 18px;
+  left: 44px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .experte-en-cr-ation {
+  position: absolute;
+  width: 507px;
+  top: 65px;
+  left: 5px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+
+.PORTFOLIO .text-wrapper-19 {
+  color: #ffffff;
+}
+
+.PORTFOLIO .text-wrapper-20 {
+  color: #eec0ff;
+}
+
+.PORTFOLIO .je-suis-un-designer {
+  position: absolute;
+  width: 507px;
+  top: 206px;
+  left: 5px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.PORTFOLIO .group-10 {
+  position: absolute;
+  width: 219px;
+  height: 56px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .overlap-group-3 {
+  position: relative;
+  width: 217px;
+  height: 56px;
+  border-radius: 108.5px/28px;
+}
+
+.PORTFOLIO .text-wrapper-21 {
+  position: absolute;
+  height: 29px;
+  top: 13px;
+  left: 30px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #eec0ff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .ellipse-4 {
+  position: absolute;
+  width: 217px;
+  height: 56px;
+  top: 0;
+  left: 0;
+  border-radius: 108.5px/28px;
+  border: 0.5px solid;
+  border-color: #eec0ff;
+}
+
+.PORTFOLIO .freelance {
+  position: absolute;
+  width: 189px;
+  height: 28px;
+  top: 401px;
+  left: 259px;
+}
+
+.PORTFOLIO .overlap-6 {
+  position: absolute;
+  width: 97px;
+  height: 28px;
+  top: 0;
+  left: 0;
+  background-color: #eec0ff;
+  border-radius: 5px;
+}
+
+.PORTFOLIO .text-wrapper-22 {
+  position: absolute;
+  height: 24px;
+  top: 2px;
+  left: 11px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.PORTFOLIO .text-wrapper-23 {
+  position: absolute;
+  height: 24px;
+  top: 2px;
+  left: 110px;
+  font-family: var(--paragraph-progress-15-font-family);
+  font-weight: var(--paragraph-progress-15-font-weight);
+  color: #eec0ff;
+  font-size: var(--paragraph-progress-15-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraph-progress-15-letter-spacing);
+  line-height: var(--paragraph-progress-15-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-progress-15-font-style);
+}
+
+.PORTFOLIO .group-11 {
+  position: absolute;
+  width: 596px;
+  height: 438px;
+  top: 5px;
+  left: 544px;
+}
+
+.PORTFOLIO .overlap-7 {
+  position: relative;
+  width: 600px;
+  height: 442px;
+  top: -2px;
+  left: -2px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #eec0ff;
+}
+
+.PORTFOLIO .group-12 {
+  position: absolute;
+  width: 255px;
+  height: 171px;
+  top: 33px;
+  left: 314px;
+}
+
+.PORTFOLIO .overlap-group-4 {
+  position: relative;
+  width: 263px;
+  height: 179px;
+  top: -4px;
+  left: -4px;
+}
+
+.PORTFOLIO .rectangle {
+  position: absolute;
+  width: 261px;
+  height: 177px;
+  top: 1px;
+  left: 1px;
+  background-color: #000000;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #eec0ff;
+}
+
+.PORTFOLIO .vector-2 {
+  position: absolute;
+  width: 263px;
+  height: 179px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .group-13 {
+  position: absolute;
+  width: 175px;
+  height: 79px;
+  top: 51px;
+  left: 46px;
+}
+
+.PORTFOLIO .text-wrapper-24 {
+  left: 41px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #eec0ff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-25 {
+  top: 55px;
+  position: absolute;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .overlap-8 {
+  position: absolute;
+  width: 255px;
+  height: 171px;
+  top: 235px;
+  left: 33px;
+}
+
+.PORTFOLIO .group-14 {
+  position: absolute;
+  width: 255px;
+  height: 171px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .group-15 {
+  position: absolute;
+  width: 132px;
+  height: 78px;
+  top: 47px;
+  left: 64px;
+}
+
+.PORTFOLIO .text-wrapper-26 {
+  left: 19px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #eec0ff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-27 {
+  top: 54px;
+  position: absolute;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .overlap-9 {
+  position: absolute;
+  width: 255px;
+  height: 171px;
+  top: 235px;
+  left: 316px;
+}
+
+.PORTFOLIO .group-16 {
+  position: absolute;
+  width: 106px;
+  height: 78px;
+  top: 47px;
+  left: 75px;
+}
+
+.PORTFOLIO .text-wrapper-28 {
+  left: 8px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #eec0ff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .group-17 {
+  position: absolute;
+  width: 255px;
+  height: 171px;
+  top: 33px;
+  left: 31px;
+}
+
+.PORTFOLIO .overlap-10 {
+  position: relative;
+  width: 262px;
+  height: 179px;
+  top: -4px;
+  left: -3px;
+}
+
+.PORTFOLIO .rectangle-2 {
+  position: absolute;
+  width: 261px;
+  height: 177px;
+  top: 1px;
+  left: 0;
+  background-color: #000000;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #eec0ff;
+}
+
+.PORTFOLIO .vector-3 {
+  position: absolute;
+  width: 108px;
+  height: 179px;
+  top: 0;
+  left: 154px;
+}
+
+.PORTFOLIO .group-18 {
+  position: absolute;
+  width: 119px;
+  height: 79px;
+  top: 51px;
+  left: 73px;
+}
+
+.PORTFOLIO .text-wrapper-29 {
+  left: 13px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #eec0ff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .mes-services {
+  position: absolute;
+  width: 1140px;
+  height: 600px;
+  top: 1665px;
+  left: 150px;
+}
+
+.PORTFOLIO .services {
+  position: absolute;
+  width: 544px;
+  height: 350px;
+  top: 137px;
+  left: 0;
+}
+
+.PORTFOLIO .group-19 {
+  position: relative;
+  width: 548px;
+  height: 350px;
+}
+
+.PORTFOLIO .pourquoi-m-embaucher {
+  position: absolute;
+  width: 544px;
+  top: 77px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+
+.PORTFOLIO .p {
+  position: absolute;
+  width: 511px;
+  top: 206px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.PORTFOLIO .text-wrapper-30 {
+  height: 29px;
+  top: 13px;
+  left: 45px;
+  color: #eec0ff;
+  font-size: 20px;
+  line-height: 29px;
+  position: absolute;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .work-process-card {
+  position: absolute;
+  width: 569px;
+  height: 600px;
+  top: 0;
+  left: 571px;
+}
+
+.PORTFOLIO .work-process-card-2 {
+  top: 300px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px;
+  position: absolute;
+  background-color: #090909;
+  border-radius: 12px;
+}
+
+.PORTFOLIO .img-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #eec0ff;
+  border-radius: 6px;
+}
+
+.PORTFOLIO .img-2 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.PORTFOLIO .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -40px;
+}
+
+.PORTFOLIO .text-wrapper-31 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--heading-05-font-family);
+  font-weight: var(--heading-05-font-weight);
+  color: #eec0ff;
+  font-size: var(--heading-05-font-size);
+  letter-spacing: var(--heading-05-letter-spacing);
+  line-height: var(--heading-05-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-05-font-style);
+}
+
+.PORTFOLIO .lorem-ipsum-dolor {
+  position: relative;
+  width: 248px;
+  font-family: var(--body-regular-400-font-family);
+  font-weight: var(--body-regular-400-font-weight);
+  color: #ffffff;
+  font-size: var(--body-regular-400-font-size);
+  letter-spacing: var(--body-regular-400-letter-spacing);
+  line-height: var(--body-regular-400-line-height);
+  font-style: var(--body-regular-400-font-style);
+}
+
+.PORTFOLIO .work-process-card-3 {
+  top: 24px;
+  left: 297px;
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px;
+  position: absolute;
+  background-color: #090909;
+  border-radius: 12px;
+}
+
+.PORTFOLIO .work-process-card-4 {
+  top: 324px;
+  left: 297px;
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px;
+  position: absolute;
+  background-color: #090909;
+  border-radius: 12px;
+}
+
+.PORTFOLIO .work-process-card-5 {
+  top: 0;
+  left: 1px;
+  box-shadow: 32px 32px 124px #2b374c1a;
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px;
+  position: absolute;
+  background-color: #090909;
+  border-radius: 12px;
+}
+
+.PORTFOLIO .frame-3 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.PORTFOLIO .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -18px;
+}
+
+.PORTFOLIO .cr-ez-des-produits {
+  position: relative;
+  width: 226px;
+  font-family: var(--body-regular-400-font-family);
+  font-weight: var(--body-regular-400-font-weight);
+  color: #ffffff;
+  font-size: var(--body-regular-400-font-size);
+  letter-spacing: var(--body-regular-400-letter-spacing);
+  line-height: var(--body-regular-400-line-height);
+  font-style: var(--body-regular-400-font-style);
+}
+
+.PORTFOLIO .div-2 {
+  position: absolute;
+  width: 1142px;
+  height: 1389px;
+  top: 2455px;
+  left: 149px;
+}
+
+.PORTFOLIO .my-skills {
+  position: absolute;
+  width: 645px;
+  height: 238px;
+  top: 0;
+  left: 271px;
+}
+
+.PORTFOLIO .group-20 {
+  position: relative;
+  width: 649px;
+  height: 238px;
+}
+
+.PORTFOLIO .bienvenue-sur-mon {
+  width: 586px;
+  top: 77px;
+  left: 30px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 36px;
+  line-height: 54px;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.PORTFOLIO .je-m-appelle-fanta {
+  position: absolute;
+  width: 645px;
+  top: 166px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.PORTFOLIO .group-21 {
+  width: 211px;
+  top: 0;
+  left: 218px;
+  position: absolute;
+  height: 56px;
+}
+
+.PORTFOLIO .overlap-group-5 {
+  position: relative;
+  width: 209px;
+  height: 56px;
+  border-radius: 104.53px/28px;
+}
+
+.PORTFOLIO .text-wrapper-32 {
+  width: 134px;
+  height: 29px;
+  top: 13px;
+  left: 38px;
+  color: #eec0ff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 29px;
+  position: absolute;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.PORTFOLIO .ellipse-5 {
+  width: 209px;
+  height: 56px;
+  border-radius: 104.53px/28px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0.5px solid;
+  border-color: #eec0ff;
+}
+
+.PORTFOLIO .group-22 {
+  position: absolute;
+  width: 1142px;
+  height: 972px;
+  top: 417px;
+  left: 0;
+}
+
+.PORTFOLIO .group-23 {
+  position: absolute;
+  width: 1141px;
+  height: 473px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .group-24 {
+  position: absolute;
+  width: 376px;
+  height: 473px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .overlap-group-6 {
+  position: relative;
+  width: 370px;
+  height: 473px;
+  background-color: #090909;
+  border-radius: 10px;
+}
+
+.PORTFOLIO .rectangle-3 {
+  position: absolute;
+  width: 370px;
+  height: 240px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.PORTFOLIO .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 186px;
+  height: 48px;
+  top: 397px;
+  left: 22px;
+  background-color: #8a0db7;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: var(--primary-500);
+}
+
+.PORTFOLIO .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 11px;
+  left: 24px;
+  font-family: "Work Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .arrows-right-arrow {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 12px;
+  left: 138px;
+}
+
+.PORTFOLIO .text-wrapper-33 {
+  position: absolute;
+  top: 295px;
+  left: 22px;
+  font-family: "Work Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #eec0ff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-34 {
+  position: absolute;
+  top: 271px;
+  left: 22px;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .cr-ation-d-un-site {
+  position: absolute;
+  width: 313px;
+  top: 333px;
+  left: 22px;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.PORTFOLIO .image {
+  height: 473px;
+  background-color: #8a0db7e6;
+  position: absolute;
+  width: 370px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .frame-5 {
+  position: absolute;
+  width: 63px;
+  height: 60px;
+  top: 207px;
+  left: 154px;
+}
+
+.PORTFOLIO .group-25 {
+  position: absolute;
+  width: 376px;
+  height: 473px;
+  top: 0;
+  left: 386px;
+}
+
+.PORTFOLIO .group-26 {
+  position: absolute;
+  width: 376px;
+  height: 473px;
+  top: 0;
+  left: 771px;
+}
+
+.PORTFOLIO .group-27 {
+  position: absolute;
+  width: 1141px;
+  height: 473px;
+  top: 499px;
+  left: 1px;
+}
+
+.PORTFOLIO .categories {
+  display: flex;
+  width: 899px;
+  align-items: flex-start;
+  gap: 50px;
+  position: absolute;
+  top: 315px;
+  left: 121px;
+}
+
+.PORTFOLIO .toutes-cat-gories {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #eec0ff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24.7px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-35 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24.7px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .group-28 {
+  position: absolute;
+  width: 1441px;
+  height: 524px;
+  top: 4030px;
+  left: 0;
+}
+
+.PORTFOLIO .overlap-11 {
+  position: relative;
+  width: 1437px;
+  height: 524px;
+  background-color: #090909;
+}
+
+.PORTFOLIO .avez-vous-une-id-e {
+  position: absolute;
+  width: 686px;
+  top: 104px;
+  left: 377px;
+  font-family: "Work Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--graywhite);
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 56px;
+}
+
+.PORTFOLIO .avec-mon-expertise {
+  position: absolute;
+  width: 868px;
+  top: 248px;
+  left: 286px;
+  font-family: var(--body-large-400-font-family);
+  font-weight: var(--body-large-400-font-weight);
+  color: var(--gray-300);
+  font-size: var(--body-large-400-font-size);
+  text-align: center;
+  letter-spacing: var(--body-large-400-letter-spacing);
+  line-height: var(--body-large-400-line-height);
+  font-style: var(--body-large-400-font-style);
+}
+
+.PORTFOLIO .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 24px;
+  position: absolute;
+  top: 376px;
+  left: 594px;
+  background-color: #8a0db7;
+  border-radius: 4px;
+}
+
+.PORTFOLIO .let-s-work-together {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-regular-600-font-family);
+  font-weight: var(--body-regular-600-font-weight);
+  color: #ffffff;
+  font-size: var(--body-regular-600-font-size);
+  letter-spacing: var(--body-regular-600-letter-spacing);
+  line-height: var(--body-regular-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-regular-600-font-style);
+}
+
+.PORTFOLIO .arrows-right-arrow-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.PORTFOLIO .blog {
+  position: absolute;
+  width: 1140px;
+  height: 860px;
+  top: 4744px;
+  left: 150px;
+}
+
+.PORTFOLIO .group-29 {
+  position: absolute;
+  width: 673px;
+  height: 262px;
+  top: 0;
+  left: 217px;
+}
+
+.PORTFOLIO .derniers-articles {
+  position: absolute;
+  width: 608px;
+  top: 77px;
+  left: 31px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+
+.PORTFOLIO .text-wrapper-36 {
+  width: 669px;
+  top: 166px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.PORTFOLIO .group-30 {
+  width: 238px;
+  top: 0;
+  left: 216px;
+  position: absolute;
+  height: 56px;
+}
+
+.PORTFOLIO .overlap-group-7 {
+  position: relative;
+  width: 236px;
+  height: 56px;
+  border-radius: 118px/28px;
+}
+
+.PORTFOLIO .ellipse-6 {
+  width: 236px;
+  height: 56px;
+  border-radius: 118px/28px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0.5px solid;
+  border-color: #eec0ff;
+}
+
+.PORTFOLIO .blog-post {
+  position: absolute;
+  width: 374px;
+  height: 474px;
+  top: 329px;
+  left: 0;
+}
+
+.PORTFOLIO .overlap-12 {
+  position: relative;
+  width: 370px;
+  height: 474px;
+  background-color: #090909;
+}
+
+.PORTFOLIO .img-3 {
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  width: 370px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .comment-cr-er-des {
+  position: absolute;
+  width: 297px;
+  top: 325px;
+  left: 30px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: #ffffff;
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  font-style: var(--h4-18px-font-style);
+}
+
+.PORTFOLIO .lorem-ipsum-dolor-2 {
+  width: 320px;
+  top: 355px;
+  left: 30px;
+  font-family: var(--p-15px-paragraph-font-family);
+  font-size: var(--p-15px-paragraph-font-size);
+  letter-spacing: var(--p-15px-paragraph-letter-spacing);
+  line-height: var(--p-15px-paragraph-line-height);
+  position: absolute;
+  font-weight: var(--p-15px-paragraph-font-weight);
+  color: #ffffff;
+  font-style: var(--p-15px-paragraph-font-style);
+}
+
+.PORTFOLIO .learn-more {
+  position: absolute;
+  width: 119px;
+  height: 23px;
+  top: 434px;
+  left: 30px;
+}
+
+.PORTFOLIO .overlap-group-8 {
+  position: relative;
+  width: 117px;
+  height: 23px;
+}
+
+.PORTFOLIO .lire-plus {
+  position: absolute;
+  width: 117px;
+  top: 0;
+  left: 0;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: #eec0ff;
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  font-style: var(--h4-18px-font-style);
+}
+
+.PORTFOLIO .frame-6 {
+  position: absolute;
+  width: 24px;
+  height: 20px;
+  top: 3px;
+  left: 83px;
+}
+
+.PORTFOLIO .blog-post-2 {
+  left: 385px;
+  position: absolute;
+  width: 374px;
+  height: 474px;
+  top: 329px;
+}
+
+.PORTFOLIO .faire-une-carte-de {
+  position: absolute;
+  width: 277px;
+  top: 325px;
+  left: 30px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: #ffffff;
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  font-style: var(--h4-18px-font-style);
+}
+
+.PORTFOLIO .blog-post-3 {
+  left: 770px;
+  position: absolute;
+  width: 374px;
+  height: 474px;
+  top: 329px;
+}
+
+.PORTFOLIO .comment-cr-er-un {
+  position: absolute;
+  width: 272px;
+  top: 325px;
+  left: 30px;
+  font-family: var(--h4-18px-font-family);
+  font-weight: var(--h4-18px-font-weight);
+  color: #ffffff;
+  font-size: var(--h4-18px-font-size);
+  letter-spacing: var(--h4-18px-letter-spacing);
+  line-height: var(--h4-18px-line-height);
+  font-style: var(--h4-18px-font-style);
+}
+
+.PORTFOLIO .group-wrapper {
+  position: absolute;
+  width: 82px;
+  height: 14px;
+  top: 846px;
+  left: 529px;
+}
+
+.PORTFOLIO .group-31 {
+  position: relative;
+  height: 14px;
+}
+
+.PORTFOLIO .ellipse-7 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 0;
+  left: 0;
+  background-color: #8a0db7;
+  border-radius: 7px;
+}
+
+.PORTFOLIO .ellipse-8 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 0;
+  left: 34px;
+  background-color: #eec0ff;
+  border-radius: 7px;
+}
+
+.PORTFOLIO .ellipse-9 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 0;
+  left: 68px;
+  background-color: #eec0ff;
+  border-radius: 7px;
+}
+
+.PORTFOLIO .group-32 {
+  position: absolute;
+  width: 1140px;
+  height: 846px;
+  top: 5789px;
+  left: 150px;
+}
+
+.PORTFOLIO .my-skills-2 {
+  position: absolute;
+  width: 1058px;
+  height: 254px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .group-33 {
+  position: relative;
+  width: 1062px;
+  height: 254px;
+}
+
+.PORTFOLIO .qu-est-ce-qui-vous-a {
+  position: absolute;
+  width: 661px;
+  top: 77px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+
+.PORTFOLIO .text-wrapper-37 {
+  position: absolute;
+  width: 1058px;
+  top: 206px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.PORTFOLIO .group-34 {
+  width: 211px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 56px;
+}
+
+.PORTFOLIO .overlap-group-9 {
+  position: relative;
+  width: 209px;
+  height: 56px;
+  border-radius: 104.5px/28px;
+}
+
+.PORTFOLIO .ellipse-10 {
+  width: 209px;
+  height: 56px;
+  border-radius: 104.5px/28px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0.5px solid;
+  border-color: #eec0ff;
+}
+
+.PORTFOLIO .frame-7 {
+  position: absolute;
+  width: 1140px;
+  height: 447px;
+  top: 399px;
+  left: 0;
+}
+
+.PORTFOLIO .group-35 {
+  position: absolute;
+  width: 1140px;
+  height: 344px;
+  top: 0;
+  left: 0;
+  background-color: #090909;
+  border-radius: 14px;
+}
+
+.PORTFOLIO .ellipse-11 {
+  position: absolute;
+  width: 246px;
+  height: 235px;
+  top: 55px;
+  left: 50px;
+  object-fit: cover;
+}
+
+.PORTFOLIO .group-36 {
+  position: absolute;
+  width: 761px;
+  height: 236px;
+  top: 55px;
+  left: 308px;
+}
+
+.PORTFOLIO .overlap-13 {
+  position: absolute;
+  width: 732px;
+  height: 182px;
+  top: 25px;
+  left: 19px;
+}
+
+.PORTFOLIO .overlap-group-10 {
+  position: absolute;
+  width: 732px;
+  height: 154px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .text-wrapper-38 {
+  width: 732px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 21px;
+  text-align: justify;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  position: absolute;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.PORTFOLIO .text-wrapper-39 {
+  position: absolute;
+  width: 19px;
+  top: 106px;
+  left: 472px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #8a0db7;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0.64px;
+  line-height: normal;
+}
+
+.PORTFOLIO .text-wrapper-40 {
+  width: 79px;
+  top: 146px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+  position: absolute;
+  font-weight: 500;
+}
+
+.PORTFOLIO .text-wrapper-41 {
+  position: absolute;
+  width: 19px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #8a0db7;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0.64px;
+  line-height: normal;
+}
+
+.PORTFOLIO .text-wrapper-42 {
+  position: absolute;
+  width: 43px;
+  top: 207px;
+  left: 19px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19px;
+  text-align: justify;
+  letter-spacing: 0.38px;
+  line-height: normal;
+}
+
+.PORTFOLIO .group-37 {
+  position: absolute;
+  width: 185px;
+  height: 5px;
+  top: 438px;
+  left: 477px;
+}
+
+.PORTFOLIO .rectangle-4 {
+  position: absolute;
+  width: 41px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 8px;
+}
+
+.PORTFOLIO .rectangle-5 {
+  position: absolute;
+  width: 41px;
+  height: 5px;
+  top: 0;
+  left: 48px;
+  background-color: #8a0db7;
+  border-radius: 8px;
+}
+
+.PORTFOLIO .rectangle-6 {
+  position: absolute;
+  width: 41px;
+  height: 5px;
+  top: 0;
+  left: 96px;
+  background-color: #d9d9d9;
+  border-radius: 8px;
+}
+
+.PORTFOLIO .rectangle-7 {
+  position: absolute;
+  width: 41px;
+  height: 5px;
+  top: 0;
+  left: 144px;
+  background-color: #d9d9d9;
+  border-radius: 8px;
+}
+
+.PORTFOLIO .contact {
+  position: absolute;
+  width: 1140px;
+  height: 795px;
+  top: 6855px;
+  left: 150px;
+}
+
+.PORTFOLIO .group-38 {
+  position: absolute;
+  width: 527px;
+  height: 208px;
+  top: 0;
+  left: 309px;
+}
+
+.PORTFOLIO .discutons-de-votre {
+  position: absolute;
+  width: 512px;
+  top: 57px;
+  left: 5px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 54px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-43 {
+  position: absolute;
+  width: 523px;
+  top: 151px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.PORTFOLIO .group-39 {
+  width: 152px;
+  top: 0;
+  left: 187px;
+  position: absolute;
+  height: 56px;
+}
+
+.PORTFOLIO .overlap-group-11 {
+  position: relative;
+  width: 150px;
+  height: 56px;
+  border-radius: 75.01px/28px;
+}
+
+.PORTFOLIO .text-wrapper-44 {
+  width: 82px;
+  height: 29px;
+  top: 13px;
+  left: 34px;
+  font-family: "Inter-Medium", Helvetica;
+  color: #eec0ff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  font-weight: 500;
+}
+
+.PORTFOLIO .ellipse-12 {
+  width: 150px;
+  height: 56px;
+  border-radius: 75.01px/28px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0.5px solid;
+  border-color: #eec0ff;
+}
+
+.PORTFOLIO .group-40 {
+  position: absolute;
+  width: 394px;
+  height: 395px;
+  top: 285px;
+  left: 0;
+}
+
+.PORTFOLIO .group-41 {
+  position: absolute;
+  width: 394px;
+  height: 120px;
+  top: 0;
+  left: 0;
+  background-color: #090909;
+  border-radius: 8px;
+}
+
+.PORTFOLIO .group-42 {
+  position: relative;
+  width: 239px;
+  height: 65px;
+  top: 28px;
+  left: 27px;
+}
+
+.PORTFOLIO .group-43 {
+  position: absolute;
+  width: 159px;
+  height: 56px;
+  top: 4px;
+  left: 83px;
+}
+
+.PORTFOLIO .text-wrapper-45 {
+  position: absolute;
+  width: 109px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #eec0ff;
+  font-size: 16px;
+  letter-spacing: 0.13px;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-46 {
+  position: absolute;
+  width: 155px;
+  top: 35px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.08px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .group-44 {
+  position: absolute;
+  width: 63px;
+  height: 65px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .group-45 {
+  position: absolute;
+  width: 394px;
+  height: 120px;
+  top: 137px;
+  left: 0;
+  background-color: #090909;
+  border-radius: 8px;
+}
+
+.PORTFOLIO .group-46 {
+  position: relative;
+  width: 344px;
+  height: 65px;
+  top: 28px;
+  left: 27px;
+}
+
+.PORTFOLIO .group-47 {
+  position: absolute;
+  width: 265px;
+  height: 55px;
+  top: 5px;
+  left: 83px;
+}
+
+.PORTFOLIO .text-wrapper-47 {
+  position: absolute;
+  width: 191px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #eec0ff;
+  font-size: 16px;
+  letter-spacing: 0.13px;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-48 {
+  position: absolute;
+  width: 261px;
+  top: 34px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.08px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .group-48 {
+  position: absolute;
+  width: 394px;
+  height: 120px;
+  top: 275px;
+  left: 0;
+  background-color: #090909;
+  border-radius: 8px;
+}
+
+.PORTFOLIO .group-49 {
+  position: relative;
+  width: 340px;
+  height: 65px;
+  top: 28px;
+  left: 27px;
+}
+
+.PORTFOLIO .group-50 {
+  position: absolute;
+  width: 261px;
+  height: 55px;
+  top: 5px;
+  left: 83px;
+}
+
+.PORTFOLIO .text-wrapper-49 {
+  position: absolute;
+  width: 72px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #eec0ff;
+  font-size: 16px;
+  letter-spacing: 0.13px;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-50 {
+  position: absolute;
+  width: 257px;
+  top: 35px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.08px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .group-51 {
+  position: absolute;
+  width: 725px;
+  height: 395px;
+  top: 285px;
+  left: 415px;
+}
+
+.PORTFOLIO .group-52 {
+  position: absolute;
+  width: 351px;
+  height: 67px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .overlap-group-12 {
+  position: relative;
+  height: 69px;
+  top: -1px;
+  left: -1px;
+  background-color: #090909;
+  border-radius: 8px;
+}
+
+.PORTFOLIO .text-wrapper-51 {
+  position: absolute;
+  width: 125px;
+  height: 29px;
+  top: 20px;
+  left: 26px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #92929d4c;
+  font-size: 16px;
+  letter-spacing: 0.13px;
+  line-height: 24px;
+}
+
+.PORTFOLIO .group-53 {
+  position: absolute;
+  width: 351px;
+  height: 67px;
+  top: 96px;
+  left: 0;
+}
+
+.PORTFOLIO .text-wrapper-52 {
+  position: absolute;
+  width: 211px;
+  height: 29px;
+  top: 20px;
+  left: 26px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #92929d4c;
+  font-size: 16px;
+  letter-spacing: 0.13px;
+  line-height: 24px;
+}
+
+.PORTFOLIO .group-54 {
+  position: absolute;
+  width: 727px;
+  height: 204px;
+  top: 192px;
+  left: 0;
+}
+
+.PORTFOLIO .overlap-14 {
+  position: relative;
+  height: 206px;
+  top: -1px;
+  left: -1px;
+  background-color: #090909;
+  border-radius: 8px;
+}
+
+.PORTFOLIO .text-wrapper-53 {
+  position: absolute;
+  width: 72px;
+  top: 20px;
+  left: 26px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #92929d4c;
+  font-size: 16px;
+  letter-spacing: 0.13px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .group-55 {
+  position: absolute;
+  width: 351px;
+  height: 67px;
+  top: 0;
+  left: 374px;
+}
+
+.PORTFOLIO .text-wrapper-54 {
+  position: absolute;
+  width: 115px;
+  height: 29px;
+  top: 20px;
+  left: 25px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #92929d4c;
+  font-size: 16px;
+  letter-spacing: 0.13px;
+  line-height: 24px;
+}
+
+.PORTFOLIO .group-56 {
+  position: absolute;
+  width: 351px;
+  height: 67px;
+  top: 96px;
+  left: 374px;
+}
+
+.PORTFOLIO .text-wrapper-55 {
+  position: absolute;
+  width: 58px;
+  top: 20px;
+  left: 26px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #92929d4c;
+  font-size: 16px;
+  letter-spacing: 0.13px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .group-57 {
+  position: absolute;
+  width: 214px;
+  height: 67px;
+  top: 728px;
+  left: 928px;
+}
+
+.PORTFOLIO .overlap-15 {
+  position: relative;
+  width: 212px;
+  height: 67px;
+  background-image: url(./img/rectangle-2023-3.svg);
+  background-size: 100% 100%;
+}
+
+.PORTFOLIO .text-wrapper-56 {
+  position: absolute;
+  width: 154px;
+  height: 29px;
+  top: 19px;
+  left: 29px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .footer {
+  position: absolute;
+  width: 1440px;
+  height: 603px;
+  top: 7650px;
+  left: 0;
+  background-color: transparent;
+}
+
+.PORTFOLIO .overlap-16 {
+  position: relative;
+  width: 1442px;
+  height: 604px;
+  top: -1px;
+}
+
+.PORTFOLIO .vector-4 {
+  position: absolute;
+  width: 1440px;
+  height: 520px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .group-58 {
+  position: absolute;
+  width: 779px;
+  height: 19px;
+  top: 401px;
+  left: 150px;
+}
+
+.PORTFOLIO .text-wrapper-57 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-58 {
+  position: absolute;
+  top: 0;
+  left: 97px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-59 {
+  top: 0;
+  left: 262px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-60 {
+  top: 0;
+  left: 405px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.PORTFOLIO .text-wrapper-61 {
+  position: absolute;
+  top: 0;
+  left: 548px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .text-wrapper-62 {
+  top: 0;
+  left: 705px;
+  font-family: "Inter-Medium", Helvetica;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 500;
+}
+
+.PORTFOLIO .group-59 {
+  position: absolute;
+  width: 205px;
+  height: 32px;
+  top: 395px;
+  left: 1085px;
+}
+
+.PORTFOLIO .linkedin-negative {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 173px;
+}
+
+.PORTFOLIO .instagram-negative {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 115px;
+}
+
+.PORTFOLIO .twitter-negative {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 58px;
+}
+
+.PORTFOLIO .facebook-negative {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+
+.PORTFOLIO .group-60 {
+  position: absolute;
+  width: 1442px;
+  height: 84px;
+  top: 520px;
+  left: 0;
+}
+
+.PORTFOLIO .element-fanta-coulibaly-wrapper {
+  position: relative;
+  width: 1440px;
+  height: 84px;
+  background-color: #000000;
+}
+
+.PORTFOLIO .element-fanta-coulibaly {
+  position: absolute;
+  width: 495px;
+  height: 24px;
+  top: 30px;
+  left: 472px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.PORTFOLIO .text-wrapper-63 {
+  color: #ffffff;
+  letter-spacing: 0.08px;
+}
+
+.PORTFOLIO .text-wrapper-64 {
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #8a0db7;
+  letter-spacing: 0.08px;
+}
+
+.PORTFOLIO .whatsapp-image-2 {
+  width: 237px;
+  height: 113px;
+  top: 204px;
+  position: absolute;
+  left: 150px;
+}
