@@ -1,3 +1,20 @@
+:root {
+  --body-large-400-font-family: 'Arial', sans-serif; /* Exemple de famille de polices */
+  --body-large-400-font-weight: 400;
+  --body-large-400-font-size: 16px;
+  --body-large-400-letter-spacing: 0.5px;
+  --body-large-400-line-height: 24px;
+  --body-large-400-font-style: normal;
+  --body-regular-600-font-family: 'Arial', sans-serif; /* Exemple de famille de polices */
+  --body-regular-600-font-weight: 600;
+  --body-regular-600-font-size: 18px;
+  --body-regular-600-letter-spacing: 0;
+  --body-regular-600-line-height: 24px;
+  --body-regular-600-font-style: normal;
+  --gray-300: #d3d3d3; /* Exemple de couleur gris clair */
+}
+
+
 body, html {
     margin: 0;
     padding: 0;
@@ -830,12 +847,13 @@ body, html {
   white-space: nowrap;
 }
 
+
 .PORTFOLIO .mes-services {
   position: absolute;
   width: 1140px;
   height: 600px;
   top: 1665px;
-  left: 150px;
+  left: 95px;
 }
 
 .PORTFOLIO .services {
@@ -850,11 +868,12 @@ body, html {
   position: relative;
   width: 548px;
   height: 350px;
+  
 }
 
 .PORTFOLIO .pourquoi-m-embaucher {
   position: absolute;
-  width: 544px;
+  width: 534px;
   top: 77px;
   left: 0;
   font-family: "Inter-SemiBold", Helvetica;
@@ -867,7 +886,7 @@ body, html {
 
 .PORTFOLIO .p {
   position: absolute;
-  width: 511px;
+  width: 501px;
   top: 206px;
   left: 0;
   font-family: "Inter-Regular", Helvetica;
@@ -894,10 +913,10 @@ body, html {
 
 .PORTFOLIO .work-process-card {
   position: absolute;
-  width: 569px;
+  width: 232px;
   height: 600px;
   top: 0;
-  left: 571px;
+  left: 551px;
 }
 
 .PORTFOLIO .work-process-card-2 {
@@ -905,7 +924,7 @@ body, html {
   left: 0;
   display: flex;
   flex-direction: column;
-  width: 272px;
+  width: 222px;
   align-items: flex-start;
   gap: 32px;
   padding: 32px;
@@ -968,11 +987,11 @@ body, html {
 }
 
 .PORTFOLIO .work-process-card-3 {
-  top: 24px;
-  left: 297px;
+  top: 40px;
+  left: 307px;
   display: flex;
   flex-direction: column;
-  width: 272px;
+  width: 222px;
   align-items: flex-start;
   gap: 32px;
   padding: 32px;
@@ -983,10 +1002,10 @@ body, html {
 
 .PORTFOLIO .work-process-card-4 {
   top: 324px;
-  left: 297px;
+  left: 307px;
   display: flex;
   flex-direction: column;
-  width: 272px;
+  width: 222px;
   align-items: flex-start;
   gap: 32px;
   padding: 32px;
@@ -997,11 +1016,11 @@ body, html {
 
 .PORTFOLIO .work-process-card-5 {
   top: 0;
-  left: 1px;
+  left: 0px;
   box-shadow: 32px 32px 124px #2b374c1a;
   display: flex;
   flex-direction: column;
-  width: 272px;
+  width: 222px;
   align-items: flex-start;
   gap: 32px;
   padding: 32px;
@@ -1042,7 +1061,7 @@ body, html {
   width: 1142px;
   height: 1389px;
   top: 2455px;
-  left: 149px;
+  left: 100px;
 }
 
 .PORTFOLIO .my-skills {
@@ -1322,40 +1341,47 @@ body, html {
   white-space: nowrap;
 }
 
+/* Conteneur parent */
 .PORTFOLIO .group-28 {
   position: absolute;
   width: 1441px;
   height: 524px;
-  top: 4030px;
-  left: 0;
+  top: 52%; /* Centrer verticalement */
+  left: 50%; /* Centrer horizontalement */
+  transform: translate(-50%, -50%); /* Ajuste le centrage */
 }
 
+/* Contenu de .group-28 */
 .PORTFOLIO .overlap-11 {
-  position: relative;
-  width: 1437px;
-  height: 524px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-color: #090909;
 }
 
+/* Titre centré */
 .PORTFOLIO .avez-vous-une-id-e {
   position: absolute;
   width: 686px;
   top: 104px;
-  left: 377px;
+  left: 50%;
+  transform: translateX(-50%); /* Centrer horizontalement */
   font-family: "Work Sans-SemiBold", Helvetica;
   font-weight: 600;
-  color: var(--graywhite);
+  color: white;
   font-size: 40px;
   text-align: center;
   letter-spacing: 0;
   line-height: 56px;
 }
 
+/* Sous-titre centré */
 .PORTFOLIO .avec-mon-expertise {
   position: absolute;
   width: 868px;
   top: 248px;
-  left: 286px;
+  left: 50%;
+  transform: translateX(-50%); /* Centrer horizontalement */
   font-family: var(--body-large-400-font-family);
   font-weight: var(--body-large-400-font-weight);
   color: var(--gray-300);
@@ -1366,6 +1392,7 @@ body, html {
   font-style: var(--body-large-400-font-style);
 }
 
+/* Bouton centré */
 .PORTFOLIO .button-3 {
   all: unset;
   box-sizing: border-box;
@@ -1376,15 +1403,15 @@ body, html {
   padding: 12px 24px;
   position: absolute;
   top: 376px;
-  left: 594px;
+  left: 50%;
+  transform: translateX(-50%); /* Centrer horizontalement */
   background-color: #8a0db7;
   border-radius: 4px;
+  text-decoration: none;
 }
 
+/* Texte du bouton centré */
 .PORTFOLIO .let-s-work-together {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
   font-family: var(--body-regular-600-font-family);
   font-weight: var(--body-regular-600-font-weight);
   color: #ffffff;
@@ -1395,18 +1422,19 @@ body, html {
   font-style: var(--body-regular-600-font-style);
 }
 
+/* Icône du bouton */
 .PORTFOLIO .arrows-right-arrow-2 {
-  position: relative;
   width: 24px;
   height: 24px;
 }
+
 
 .PORTFOLIO .blog {
   position: absolute;
   width: 1140px;
   height: 860px;
   top: 4744px;
-  left: 150px;
+  left: 100px;
 }
 
 .PORTFOLIO .group-29 {
@@ -1651,7 +1679,7 @@ body, html {
   width: 1140px;
   height: 846px;
   top: 5789px;
-  left: 150px;
+  left: 100px;
 }
 
 .PORTFOLIO .my-skills-2 {
@@ -1894,7 +1922,7 @@ body, html {
   width: 1140px;
   height: 795px;
   top: 6855px;
-  left: 150px;
+  left: 100px;
 }
 
 .PORTFOLIO .group-38 {
@@ -2344,13 +2372,32 @@ body, html {
   left: 0;
 }
 
-.PORTFOLIO .group-58 {
+.PORTFOLIO .navbar2 {
   position: absolute;
   width: 779px;
   height: 19px;
   top: 401px;
-  left: 150px;
+  display: flex; /* Use flexbox to arrange items */
+  align-items: center; /* Center vertically */
+  gap: 40px; /* Space between items */
+  left: 34%; /* Center the navbar horizontally */
+  transform: translateX(-50%); /* Center horizontally */
 }
+
+.PORTFOLIO .navbar2 a {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none; /* Remove underline */
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .navbar2 a:hover {
+  color: #8a0db7; /* Change color on hover */
+}  
 
 .PORTFOLIO .text-wrapper-57 {
   position: absolute;
@@ -2518,4 +2565,26 @@ body, html {
   top: 204px;
   position: absolute;
   left: 150px;
+}
+/* Style pour le bouton de retour en haut */
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px; /* Positionné en bas de la page */
+  right: 20px; /* Positionné à droite de la page */
+  background-color: #8a0db7; /* Couleur de fond */
+  border: none;
+  border-radius: 50%; /* Forme ronde */
+  width: 50px;
+  height: 50px;
+  color: #fff; /* Couleur du texte */
+  font-size: 24px; /* Taille du texte */
+  display: none; /* Masquer par défaut */
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Curseur pointer pour indiquer que c'est cliquable */
+}
+
+/* Style lorsque le bouton est visible */
+.scroll-to-top-btn.show {
+  display: flex;
 }

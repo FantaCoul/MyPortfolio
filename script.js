@@ -1,23 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Animation pour "Engagez moi" bouton
-    const engagezMoiBtn = document.querySelector('.overlap-group-2');
-    engagezMoiBtn.addEventListener('mouseover', () => {
-      engagezMoiBtn.style.backgroundColor = '#A626D3';
-    });
-  
-    engagezMoiBtn.addEventListener('mouseout', () => {
-      engagezMoiBtn.style.backgroundColor = '#8b0db7';
-    });
-  
-    // Navigation vers la section "À propos"
-    const aboutLink = document.querySelector('.text-wrapper-21');
-    aboutLink.addEventListener('click', () => {
-      window.scrollTo({
-        top: document.querySelector('.a-propos').offsetTop,
-        behavior: 'smooth'
-      });
-    });
-  
+
+  const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+  // Affiche le bouton lorsque l'utilisateur fait défiler vers le bas
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) { // Changez la valeur si nécessaire
+      scrollToTopBtn.classList.add('show');
+    } else {
+      scrollToTopBtn.classList.remove('show');
+    }
+  });
+
+  // Fait défiler la page vers le haut lorsque le bouton est cliqué
+  scrollToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+ 
     // Changement de couleur au survol des compétences
     const skillBlocks = document.querySelectorAll('.rectangle, .rectangle-2');
     skillBlocks.forEach(block => {
@@ -29,4 +27,5 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+  
   
