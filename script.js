@@ -15,6 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
   scrollToTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  function toggleMenu() {
+    const navLinks = document.querySelector('.navbar .nav-links');
+    navLinks.classList.toggle('active');
+  }
+
+
  
     // Changement de couleur au survol des compétences
     const skillBlocks = document.querySelectorAll('.rectangle, .rectangle-2');
