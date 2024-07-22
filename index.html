@@ -18,7 +18,7 @@
             text-align: center;
         }
         .container {
-            background-color: #333333;
+            background-color: #4B0082; /* Violet background color */
             padding: 20px;
             border-radius: 8px;
             max-width: 80%;
@@ -27,18 +27,19 @@
         h1 {
             margin: 0;
             font-size: 24px;
+            color: #ffffff;
         }
         p {
             margin: 10px 0;
             font-size: 18px;
+            color: #ffffff;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Site en Construction</h1>
-        <p>Ce site est encore en construction. Veuillez l'ouvrir sur un ordinateur pour une meilleure expérience.</p>
-        <p>Vous serez redirigé vers le portfolio dans quelques secondes si vous utilisez un ordinateur.</p>
+        <p id="message"></p>
     </div>
 
     <script>
@@ -48,11 +49,11 @@
 
         // Vérifie la largeur de l'écran et redirige si l'écran est large (ordinateur)
         if (window.innerWidth >= 1024) {
+            document.getElementById('message').innerText = "Ce site est encore en construction. Veuillez l'ouvrir sur un ordinateur pour une meilleure expérience. Vous serez redirigé vers le portfolio dans quelques secondes.";
             // Redirige vers le portfolio après 5 secondes
             setTimeout(redirectToPortfolio, 5000); // 5000 millisecondes = 5 secondes
         } else {
-            // Affiche un message alternatif ou rien pour les petits écrans
-            document.querySelector('.container').innerHTML += '<p>Vous devez utiliser un ordinateur pour accéder au contenu.</p>';
+            document.getElementById('message').innerText = "Ce site est encore en construction. Veuillez l'ouvrir sur un ordinateur pour une meilleure expérience.";
         }
     </script>
 </body>
