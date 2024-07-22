@@ -18,7 +18,7 @@
             text-align: center;
         }
         .container {
-            background-color: #4B0082; /* Couleur violette harmonieuse */
+            background-color: #333333;
             padding: 20px;
             border-radius: 8px;
             max-width: 80%;
@@ -27,26 +27,18 @@
         h1 {
             margin: 0;
             font-size: 24px;
-            color: #ffffff;
         }
         p {
             margin: 10px 0;
             font-size: 18px;
-            color: #ffffff;
-        }
-        .desktop-message {
-            display: none;
-        }
-        .mobile-message {
-            display: none;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Site en Construction</h1>
-        <p class="desktop-message">Ce site est encore en construction. Vous serez redirigé vers le portfolio dans quelques secondes.</p>
-        <p class="mobile-message">Ce site est encore en construction. Veuillez l'ouvrir sur un ordinateur pour une meilleure expérience.</p>
+        <p>Ce site est encore en construction. Veuillez l'ouvrir sur un ordinateur pour une meilleure expérience.</p>
+        <p>Vous serez redirigé vers le portfolio dans quelques secondes si vous utilisez un ordinateur.</p>
     </div>
 
     <script>
@@ -54,15 +46,13 @@
             window.location.href = 'portfolio.html'; // Changez cela en l'URL de votre portfolio
         }
 
-        // Vérifie la largeur de l'écran et affiche le message approprié
+        // Vérifie la largeur de l'écran et redirige si l'écran est large (ordinateur)
         if (window.innerWidth >= 1024) {
-            // Affiche le message pour les ordinateurs
-            document.querySelector('.desktop-message').style.display = 'block';
             // Redirige vers le portfolio après 5 secondes
             setTimeout(redirectToPortfolio, 5000); // 5000 millisecondes = 5 secondes
         } else {
-            // Affiche le message pour les mobiles
-            document.querySelector('.mobile-message').style.display = 'block';
+            // Affiche un message alternatif ou rien pour les petits écrans
+            document.querySelector('.container').innerHTML += '<p>Vous devez utiliser un ordinateur pour accéder au contenu.</p>';
         }
     </script>
 </body>
