@@ -902,24 +902,29 @@ body, html {
 
 .PORTFOLIO .mes-services {
   position: absolute;
-  width: 1140px;
-  height: 600px;
+  width: 100%; /* Utilise 100% de la largeur du parent */
+  max-width: 1144px; /* Limite la largeur maximale à 1144px */
+  height: auto;
   top: 1665px;
-  left: 95px;
+  left: 50%;
+  transform: translateX(-50%); /* Centre horizontalement */
+  padding: 10px; /* Ajoute du padding pour éviter que le contenu touche les bords */
+  box-sizing: border-box; /* Inclut le padding et les bordures dans la largeur totale */
+  display: flex;
+  flex-wrap: wrap; /* Permet aux éléments enfants de passer à la ligne suivante */
+  justify-content: space-between; /* Espace entre les éléments */
 }
 
-.PORTFOLIO .services {
-  position: absolute;
-  width: 544px;
-  height: 350px;
-  top: 137px;
-  left: 0;
-}
+
+
 
 .PORTFOLIO .group-19 {
   position: relative;
   width: 548px;
   height: 350px;
+  top: 137px;
+  width: 48%; /* Largeur de 48% pour les éléments côte à côte */
+  margin: 10px 0; /* Marge entre les éléments */
   
 }
 
@@ -1110,11 +1115,19 @@ body, html {
 
 .PORTFOLIO .div-2 {
   position: absolute;
-  width: 1142px;
-  height: 1389px;
+  width: 100%; /* Utilise 100% de la largeur du parent */
+  max-width: 1144px; /* Limite la largeur maximale à 1144px */
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%); /* Centre horizontalement */
+  padding: 10px; /* Ajoute du padding pour éviter que le contenu touche les bords */
+  box-sizing: border-box; /* Inclut le padding et les bordures dans la largeur totale */
+  display: flex;
+  flex-wrap: wrap; /* Permet aux éléments enfants de passer à la ligne suivante */
+  justify-content: space-between; /* Espace entre les éléments */
   top: 2455px;
-  left: 100px;
 }
+
 
 .PORTFOLIO .my-skills {
   position: absolute;
@@ -1969,12 +1982,21 @@ body, html {
   border-radius: 8px;
 }
 
+
+/* CSS CONTACT */
 .PORTFOLIO .contact {
   position: absolute;
-  width: 1140px;
+  width: 100%; /* Utilise 100% de la largeur du parent */
+  max-width: 1144px; /* Limite la largeur maximale à 1144px */
   height: 795px;
+  left: 50%;
+  transform: translateX(-50%); /* Centre horizontalement */
   top: 6855px;
-  left: 100px;
+  padding: 10px; /* Ajoute du padding pour éviter que le contenu touche les bords */
+  box-sizing: border-box; /* Inclut le padding et les bordures dans la largeur totale */
+  display: flex;
+  flex-wrap: wrap; /* Permet aux éléments enfants de passer à la ligne suivante */
+  justify-content: space-between; /* Espace entre les éléments */
 }
 
 .PORTFOLIO .group-38 {
@@ -2248,49 +2270,12 @@ body, html {
   left: 0;
 }
 
-.PORTFOLIO .overlap-group-12 {
-  position: relative;
-  height: 69px;
-  top: -1px;
-  left: -1px;
-  background-color: #090909;
-  border-radius: 8px;
-}
-
-.PORTFOLIO .text-wrapper-51 {
-  position: absolute;
-  width: 125px;
-  height: 29px;
-  top: 20px;
-  left: 26px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #92929d4c;
-  font-size: 16px;
-  letter-spacing: 0.13px;
-  line-height: 24px;
-}
-
 .PORTFOLIO .group-53 {
   position: absolute;
   width: 351px;
   height: 67px;
   top: 96px;
   left: 0;
-}
-
-.PORTFOLIO .text-wrapper-52 {
-  position: absolute;
-  width: 211px;
-  height: 29px;
-  top: 20px;
-  left: 26px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #92929d4c;
-  font-size: 16px;
-  letter-spacing: 0.13px;
-  line-height: 24px;
 }
 
 .PORTFOLIO .group-54 {
@@ -2301,49 +2286,12 @@ body, html {
   left: 0;
 }
 
-.PORTFOLIO .overlap-14 {
-  position: relative;
-  height: 206px;
-  top: -1px;
-  left: -1px;
-  background-color: #090909;
-  border-radius: 8px;
-}
-
-.PORTFOLIO .text-wrapper-53 {
-  position: absolute;
-  width: 72px;
-  top: 20px;
-  left: 26px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #92929d4c;
-  font-size: 16px;
-  letter-spacing: 0.13px;
-  line-height: 24px;
-  white-space: nowrap;
-}
-
 .PORTFOLIO .group-55 {
   position: absolute;
   width: 351px;
   height: 67px;
   top: 0;
   left: 374px;
-}
-
-.PORTFOLIO .text-wrapper-54 {
-  position: absolute;
-  width: 115px;
-  height: 29px;
-  top: 20px;
-  left: 25px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #92929d4c;
-  font-size: 16px;
-  letter-spacing: 0.13px;
-  line-height: 24px;
 }
 
 .PORTFOLIO .group-56 {
@@ -2354,59 +2302,109 @@ body, html {
   left: 374px;
 }
 
-.PORTFOLIO .text-wrapper-55 {
-  position: absolute;
-  width: 58px;
-  top: 20px;
-  left: 26px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #92929d4c;
-  font-size: 16px;
-  letter-spacing: 0.13px;
-  line-height: 24px;
-  white-space: nowrap;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espacement entre les groupes de formulaire */
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.PORTFOLIO .group-57 {
-  position: absolute;
-  width: 214px;
-  height: 67px;
-  top: 728px;
-  left: 928px;
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+  gap: 20px; /* Espacement entre les éléments de la grille */
 }
 
-.PORTFOLIO .overlap-15 {
-  position: relative;
-  width: 212px;
-  height: 67px;
-  background-image: url(./img/rectangle-2023-3.svg);
-  background-size: 100% 100%;
+.form-group {
+  display: flex;
+  flex-direction: column;
 }
 
-.PORTFOLIO .text-wrapper-56 {
-  position: absolute;
-  width: 154px;
-  height: 29px;
-  top: 19px;
-  left: 29px;
+label {
+  color: #eec0ff;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
-  color: #ffffff;
   font-size: 16px;
-  text-align: center;
-  letter-spacing: 0;
   line-height: 24px;
-  white-space: nowrap;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #eec0ff;
+  border-radius: 8px;
+  background-color: #090909;
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #92929d4c;
+}
+
+textarea {
+  resize: vertical; /* Permet à l'utilisateur de redimensionner le champ de texte */
+}
+
+.message-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.submit-group {
+  display: flex;
+  justify-content: flex-end; /* Aligne le bouton à droite */
+}
+
+.submit-button {
+  width: 100%;
+  max-width: 300px; /* Limite la largeur du bouton */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #eec0ff;
+  color: #090909;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.submit-button:hover {
+  background-color: #d39dff;
 }
 
 .PORTFOLIO .footer {
   position: absolute;
-  width: 1440px;
-  height: 603px;
+  width: 100%; /* Utilise 100% de la largeur du parent */
+  max-width: 1144px; /* Limite la largeur maximale à 1144px */
+  height: auto;
   top: 7650px;
   left: 0;
   background-color: transparent;
+}
+.PORTFOLIO .mes-services {
+  position: absolute;
+  width: 100%; /* Utilise 100% de la largeur du parent */
+  max-width: 1144px; /* Limite la largeur maximale à 1144px */
+  height: auto;
+  top: 1665px;
+  left: 50%;
+  transform: translateX(-50%); /* Centre horizontalement */
+  padding: 10px; /* Ajoute du padding pour éviter que le contenu touche les bords */
+  box-sizing: border-box; /* Inclut le padding et les bordures dans la largeur totale */
+  display: flex;
+  flex-wrap: wrap; /* Permet aux éléments enfants de passer à la ligne suivante */
+  justify-content: space-between; /* Espace entre les éléments */
 }
 
 .PORTFOLIO .overlap-16 {
@@ -2603,7 +2601,6 @@ body, html {
   font-weight: 600;
   color: #8a0db7;
 }
-
 
 .PORTFOLIO .whatsapp-image-2 {
   width: 237px;
