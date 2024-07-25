@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   </head>
   <body>
     <div class="PORTFOLIO">
@@ -451,32 +452,77 @@
               </div>
             </div>
           </div>
-          <div class="frame-7">
-            <div class="group-35">
-              <img class="ellipse-11" src="img/ellipse-10.png" />
-              <div class="group-36">
-                <div class="overlap-13">
-                  <div class="overlap-group-10">
-                    <p class="text-wrapper-38">
-                      Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque
-                      mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada
-                      commodo ultrices.
-                    </p>
-                    <div class="text-wrapper-39">“</div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- Diapositive 1 -->
+              <div class="swiper-slide">
+                <div class="frame-7">
+                  <div class="group-35">
+                    <img class="ellipse-11" src="Images/Ellipse 10.png" alt="Profile Picture"/>
+                    <div class="group-36">
+                      <div class="overlap-13">
+                        <div class="overlap-group-10">
+                          <p class="text-wrapper-38">
+                            Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
+                          </p>
+                          <div class="text-wrapper-39">“</div>
+                        </div>
+                        <div class="text-wrapper-40">Name</div>
+                      </div>
+                      <div class="text-wrapper-41">“</div>
+                      <div class="text-wrapper-42">CEO</div>
+                    </div>
                   </div>
-                  <div class="text-wrapper-40">Name</div>
                 </div>
-                <div class="text-wrapper-41">“</div>
-                <div class="text-wrapper-42">CEO</div>
+              </div>
+              <!-- Diapositive 2 -->
+              <div class="swiper-slide">
+                <div class="frame-7">
+                  <div class="group-35">
+                    <img class="ellipse-11" src="Images/Ellipse 11.png" alt="Profile Picture"/>
+                    <div class="group-36">
+                      <div class="overlap-13">
+                        <div class="overlap-group-10">
+                          <p class="text-wrapper-38">
+                            Un autre témoignage ici. Texte de démonstration pour montrer comment ajouter plusieurs diapositives.
+                          </p>
+                          <div class="text-wrapper-39">“</div>
+                        </div>
+                        <div class="text-wrapper-40">Name</div>
+                      </div>
+                      <div class="text-wrapper-41">“</div>
+                      <div class="text-wrapper-42">CTO</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Diapositive 3 -->
+              <div class="swiper-slide">
+                <div class="frame-7">
+                  <div class="group-35">
+                    <img class="ellipse-11" src="Images/Ellipse 12.png" alt="Profile Picture"/>
+                    <div class="group-36">
+                      <div class="overlap-13">
+                        <div class="overlap-group-10">
+                          <p class="text-wrapper-38">
+                            Un troisième témoignage ici. Encore plus de texte pour démontrer la fonctionnalité du carrousel.
+                          </p>
+                          <div class="text-wrapper-39">“</div>
+                        </div>
+                        <div class="text-wrapper-40">Name</div>
+                      </div>
+                      <div class="text-wrapper-41">“</div>
+                      <div class="text-wrapper-42">CMO</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="group-37">
-              <div class="rectangle-4"></div>
-              <div class="rectangle-5"></div>
-              <div class="rectangle-6"></div>
-              <div class="rectangle-7"></div>
-            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
           </div>
+          
+       
         </div>
 <section id="contact" class="contact">
   <div class="group-38">
@@ -522,6 +568,7 @@
       </div>
     </div>
   </div>
+  
   <div class="group-51">
     <form action="https://formspree.io/f/myzgkjgd" method="post">
       <div class="form-grid">
@@ -529,35 +576,29 @@
           <label class="text-wrapper-51" for="name">Nom et prénom</label>
           <input type="text" id="name" name="name" required>
         </div>
-    
         <div class="form-group">
           <label class="text-wrapper-52" for="phone">Numéro de téléphone</label>
           <input type="tel" id="phone" name="phone" required>
         </div>
-    
         <div class="form-group">
           <label class="text-wrapper-54" for="email">Votre email</label>
           <input type="email" id="email" name="email" required>
         </div>
-    
         <div class="form-group">
           <label class="text-wrapper-55" for="budget">Budget</label>
           <input type="text" id="budget" name="budget">
         </div>
       </div>
-    
       <div class="message-group">
         <label class="text-wrapper-53" for="message">Message</label>
         <textarea id="message" name="message" rows="4" required></textarea>
       </div>
-    
       <div class="submit-group">
         <button type="submit" class="submit-button">Envoyer</button>
       </div>
     </form>
-    
-          </div>
-</section>
+  </div>
+  </section>
         <footer class="footer">
           <div class="overlap-16">
             <img class="vector-4" src="Images/Vector 2.png" />
@@ -599,5 +640,6 @@
 </button>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
